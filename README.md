@@ -19,6 +19,7 @@ VogueVault solves these problems by creating a **personalised digital twin** of 
 * *Intelligent Concept Stylist:* Receive outfit recommendations based on specific events and dress codes (e.g., Smart Casual, Formal).
 * *AI Visual Style Matcher:* Upload an inspiration photo to find visually matching items from your own wardrobe.
 * *Smart Commerce Integration:* Detect missing items in an outfit and get real product recommendations with direct purchase links.
+
 ## 4. Team Information
 * *Team:* ModaByte
 * *Members:* Doga Pirci, Selin Sermet, Asli Goktalay, Arda Ceran
