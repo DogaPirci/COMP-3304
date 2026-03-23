@@ -32,8 +32,8 @@ Built with Next.js, Supabase, and deployed as a single Docker container on Railw
 * *Members:* Doga Pirci, Selin Sermet, Asli Goktalay, Arda Ceran
 * *Course:* COMP 3304 — Fundamentals of Software Engineering
 
-* *Instructor:* Dr. Suphi Ucar.
-
 * *Instructor:* Dr. Suphi Ucar
+
+
 
 
