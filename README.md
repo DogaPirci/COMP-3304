@@ -1,39 +1,49 @@
-# COMP-3304
-COMP 3304-Term Project VogueVault
+# 👗 VogueVault: AI-Powered Online Closet
 
-## 1. Project Overview
+[cite_start]**VogueVault**, fiziksel gardıroplar ile dijital kolaylık arasındaki boşluğu kapatmak için tasarlanmış, yapay zeka destekli bir dijital gardırop yönetim sistemidir[cite: 84].
 
-VogueVault is an AI-powered digital wardrobe management system designed to bridge the gap between physical closets and digital convenience. Research shows that people spend an average of 17 minutes every morning deciding what to wear, often leading to "decision fatigue" and overconsumption of fast fashion.
-VogueVault solves these problems by creating a personalised digital twin of a user's wardrobe. Leveraging the power of the Google Gemini Vision API, the system automatically categorises uploaded clothing items, suggests outfits based on specific dress codes, and helps users make more sustainable fashion choices.
-Users can upload a photo of any clothing item and let the AI classify it instantly  no manual tagging required. When a specific event or dress code comes up, VogueVault filters the wardrobe and generates outfit combinations tailored to the occasion. For users who find inspiration in runway looks or social media posts, the AI Style Matcher finds the closest matches from their own wardrobe, reducing the urge to buy new items.
-When a required piece is genuinely missing, the Smart Commerce Integration  powered by the Google Custom Search API — surfaces real product recommendations with images and direct purchase links from online retailers. Every search result is cached to minimise API usage and ensure a fast experience.
-Built with Next.js, Supabase, and deployed as a single Docker container on Railway.app, VogueVault is designed to be lightweight, maintainable, and ready to scale — developed by a four-person student team as part of COMP 3304 Fundamentals of Software Engineering at Yasar University.
+---
 
-### Key Objectives:
-* **Reduce Decision Fatigue:** Help users quickly translate abstract dress codes (like Smart Casual or Formal) into concrete outfits from their own collection.
-* **Promote Sustainability:** Increase the utility of existing clothes to discourage unnecessary new purchases.
-* **Smart Organization:** Automatically tag and sort items by category, colour, and style without manual data entry.
-* **Visual Inspiration:** Allow users to upload "inspiration photos" and find the closest matching items within their own digital closet.
+## 🚀 1. Project Overview
+[cite_start]VogueVault, kullanıcının fiziksel gardırobunun "dijital ikizini" oluşturur[cite: 84]. [cite_start]Google Gemini Vision API kullanarak kıyafetleri otomatik kategorize eder ve sürdürülebilir moda seçimlerini teşvik eder[cite: 84].
 
-## 2. Key Features
-* *Digital Closet Management:* Upload clothing photos and automatically categorise them using AI.
-* *Intelligent Concept Stylist:* Receive outfit recommendations based on specific events and dress codes (e.g., Smart Casual, Formal).
-* *AI Visual Style Matcher:* Upload an inspiration photo to find visually matching items from your own wardrobe.
-* *Smart Commerce Integration:* Detect missing items in an outfit and get real product recommendations with direct purchase links.
+### The Core Problems We Solve:
+* [cite_start]**Decision Fatigue:** Kıyafet seçimindeki karar yorgunluğunu azaltır[cite: 84].
+* [cite_start]**Wardrobe Invisibility:** Unutulan kıyafetleri dijital ortamda görünür kılar[cite: 84].
+* [cite_start]**Inefficient Shopping:** Gereksiz ve benzer alışverişlerin önüne geçer[cite: 84].
 
-## 3. Technologies Used 
-* * *Frontend & API:* Next.js (React) and Tailwind CSS
-* *Database & Auth:* Supabase (PostgreSQL)
-* *AI & Search:* Google Gemini Vision API, Google Custom Search API
-* *Deployment:* Docker and Railway.app
- 
-## 4. Team Information
-* *Team:* ModaByte
-* *Members:* Doga Pirci, Selin Sermet, Asli Goktalay, Arda Ceran
-* *Course:* COMP 3304 — Fundamentals of Software Engineering
+---
 
-* *Instructor:* Dr. Suphi Ucar
+## ✨ 2. Key Features
+* [cite_start]**Digital Closet Management:** Fotoğrafları AI ile otomatik etiketleme[cite: 84].
+* [cite_start]**Intelligent Concept Stylist:** Etkinliklere özel kombin önerileri[cite: 84].
+* [cite_start]**AI Visual Style Matcher:** İlham fotoğraflarıyla gardırop eşleştirmesi[cite: 84].
+* [cite_start]**Smart Commerce Integration:** Eksik parçalar için Google Custom Search API ile öneriler[cite: 84].
 
+---
 
+## 🏗️ 3. System Architecture & Software Engineering
+* [cite_start]**Layered (N-Tier) Architecture:** Modüler ve ölçeklenebilir yapı[cite: 84].
+* [cite_start]**Factory Method Design Pattern:** `DigitalClosetFactory` ile dinamik nesne üretimi (Shirt, Trouser, Shoe)[cite: 84].
 
+---
 
+## 🛠️ 4. Technologies Used
+| Category | Technology |
+| :--- | :--- |
+| **Frontend & API** | [cite_start]Next.js, Tailwind CSS [cite: 84] |
+| **Database & Auth** | [cite_start]Supabase (PostgreSQL) [cite: 84] |
+| **AI & Search** | [cite_start]Google Gemini & Custom Search API [cite: 84] |
+| **Deployment** | [cite_start]Docker & Railway.app [cite: 84] |
+
+---
+
+## 👥 5. Team Information
+**Team Name:** ModaByte  
+**Course:** COMP 3304 — Fundamentals of Software Engineering  
+[cite_start]**Instructor:** Dr. Suphi Ucar [cite: 84]
+
+* [cite_start]**Doğa Pirci** [cite: 85]
+* [cite_start]**Selin Şermet** [cite: 87]
+* [cite_start]**Aslı Göktalay** [cite: 86]
+* [cite_start]**Arda Ceran** [cite: 88]
