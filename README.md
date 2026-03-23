@@ -1,7 +1,6 @@
 # COMP-3304
 COMP 3304-Term Project VogueVault
 
-
 ## 1. Project Overview
 
 VogueVault is an AI-powered digital wardrobe management system designed to bridge the gap between physical closets and digital convenience. Research shows that people spend an average of 17 minutes every morning deciding what to wear, often leading to "decision fatigue" and overconsumption of fast fashion.
@@ -19,9 +18,17 @@ VogueVault solves these problems by creating a **personalised digital twin** of 
 * *Intelligent Concept Stylist:* Receive outfit recommendations based on specific events and dress codes (e.g., Smart Casual, Formal).
 * *AI Visual Style Matcher:* Upload an inspiration photo to find visually matching items from your own wardrobe.
 * *Smart Commerce Integration:* Detect missing items in an outfit and get real product recommendations with direct purchase links.
+
+## 3. Technologies Used 
+* * *Frontend & API:* Next.js (React) and Tailwind CSS
+* *Database & Auth:* Supabase (PostgreSQL)
+* *AI & Search:* Google Gemini Vision API, Google Custom Search API
+* *Deployment:* Docker and Railway.app
+ 
 ## 4. Team Information
 * *Team:* ModaByte
 * *Members:* Doga Pirci, Selin Sermet, Asli Goktalay, Arda Ceran
 * *Course:* COMP 3304 — Fundamentals of Software Engineering
 * *Instructor:* Dr. Suphi Ucar
+
 
